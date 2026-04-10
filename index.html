@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PropBank — Group Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="progress-bar"></div>
+
+<!-- ===== NAVIGATION ===== -->
+<nav class="navbar">
+  <div class="nav-container">
+    <a href="#hero" class="nav-logo">PROP<span>BANK</span></a>
+    <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+    <ul class="nav-links">
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#ecosystem">Ecosystem</a></li>
+      <li><a href="#design-system">Design System</a></li>
+      <li><a href="#navigation">Navigation</a></li>
+      <li><a href="#integration">Integration</a></li>
+      <li><a href="#portfolios">Portfolios</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="hero">
+  <div class="hero-content">
+    <div class="hero-badge">CS3240 Group Portfolio &middot; T6 Group 5</div>
+    <h1>PROP<span>BANK</span></h1>
+    <p class="tagline">A cosplay and ACGN preparation platform that helps users discover events, source cosplay items with trust, access practical guides, and connect with the community — all within one integrated ecosystem.</p>
+    <div class="hero-meta">Guo Yuhao &middot; Chen Hongshan &middot; Xiao Ao &middot; Jae &middot; AY2025/26 S2</div>
+  </div>
+  <div class="hero-visual">
+    <div class="service-pill"><span class="pill-icon">&#128240;</span> <strong>CoNews</strong> — Event discovery &amp; ticketing</div>
+    <div class="service-pill"><span class="pill-icon">&#128722;</span> <strong>Marketplace</strong> — Cosplay gear sourcing</div>
+    <div class="service-pill"><span class="pill-icon">&#128295;</span> <strong>Workshop</strong> — Tutorials &amp; guides</div>
+    <div class="service-pill"><span class="pill-icon">&#128247;</span> <strong>Creator Hub</strong> — Community sharing</div>
+    <div class="service-pill"><span class="pill-icon">&#10024;</span> <strong>PropScan</strong> — AI prop identification</div>
+  </div>
+  <div class="scroll-indicator">&#8964;</div>
+</section>
+
+<!-- ===== SECTION 1: OVERVIEW ===== -->
+<section class="section" id="overview">
+  <div class="container">
+    <div class="fade-in">
+      <div class="section-label">01 / Overview</div>
+      <h2 class="section-title">Super-app Vision &amp; Context</h2>
+      <p class="section-subtitle">PropBank bridges the gap between creation and connection for the ACGN community.</p>
+    </div>
+
+    <div class="fade-in">
+      <h3>The Problem</h3>
+      <p>There is no dedicated ecosystem for the specialised supply chain of ACGN creators. Sourcing niche assets — custom props, styled wigs, costumes — is inefficient on general marketplaces. Event discovery is fragmented across Instagram, Telegram, and word of mouth. Learning resources are scattered. Community sharing lacks a cosplay-specific space.</p>
+      <p>Currently, ACGN creators are forced to juggle general-purpose apps that don't cater to their specific workflow.</p>
+    </div>
+
+    <div class="fade-in">
+      <h3>Our Solution</h3>
+      <p>PropBank is a <strong>One-Stop solution</strong> that transforms the fragmented process of cosplay preparation into a unified experience. Users can acquire gear, find conventions, learn techniques, and connect with peers — all without switching platforms.</p>
+    </div>
+
+    <div class="fade-in">
+      <h3>Why a Super-app?</h3>
+    </div>
+
+    <div class="card-grid fade-in">
+      <div class="card">
+        <div class="card-label">Unified Identity</div>
+        <h4>Portable Reputation</h4>
+        <p>A single profile where marketplace trust, workshop contributions, and community activity all build the user's reputation. Users don't start from zero for each service.</p>
+      </div>
+      <div class="card">
+        <div class="card-label">Seamless Context Flow</div>
+        <h4>No Re-entry</h4>
+        <p>Data moves with the user across features. Analysing a prop can lead to marketplace listings or relevant guides — without switching apps or re-uploading.</p>
+      </div>
+      <div class="card">
+        <div class="card-label">Cross-Feature Intelligence</div>
+        <h4>Compounding Data</h4>
+        <p>Each service makes the others smarter. Marketplace helps PropScan learn new props. Forum discussions aid Workshop curation. Everything reinforces everything.</p>
+      </div>
+    </div>
+
+    <div class="fade-in">
+      <h3>Target Users</h3>
+    </div>
+
+    <div class="card-grid fade-in">
+      <div class="card">
+        <div class="card-label">Primary Users</div>
+        <h4>Cosplayers &amp; ACGN Participants</h4>
+        <p>Users who attend conventions, need event information, source cosplay items, and occasionally need guides for preparation.</p>
+      </div>
+      <div class="card">
+        <div class="card-label">Secondary Users</div>
+        <h4>Casual Convention-goers &amp; ACGN Fans</h4>
+        <p>Users who mainly care about discovering events, may browse content or marketplace listings, and are less invested in prop-making.</p>
+      </div>
+    </div>
+
+    <div class="fade-in">
+      <h3>Refined Product Positioning</h3>
+      <div class="quote">
+        <p>PropBank is a cosplay and ACGN preparation platform that helps users discover relevant events, source cosplay-related items and services with greater trust, and access practical guides when needed, all within one connected ecosystem.</p>
+      </div>
+      <p>The most validated user workflow is: <strong>Discover event &rarr; Prepare / source items &rarr; Look up targeted guidance &rarr; Optionally share with community</strong>. The MVP prioritizes utility and flow continuity over feature breadth.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 2: TEAM ===== -->
+<section class="section" id="team">
+  <div class="container">
+    <div class="fade-in">
+      <div class="section-label">02 / Team</div>
+      <h2 class="section-title">Meet the Team</h2>
+      <p class="section-subtitle">Each member owns one service within the PropBank ecosystem.</p>
+    </div>
+
+    <div class="team-grid fade-in">
+      <div class="team-card">
+        <div class="team-avatar">&#128100;</div>
+        <h4>Chen Hongshan</h4>
+        <div class="team-service">Gear Library &amp; Marketplace</div>
+        <p style="font-size: 0.875rem; color: var(--text-muted);">Buy, sell, borrow, swap cosplay items with trust and transparency.</p>
+        <a href="#" class="team-link">Individual Portfolio &rarr;</a>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar">&#128100;</div>
+        <h4>Xiao Ao</h4>
+        <div class="team-service">CoNews</div>
+        <p style="font-size: 0.875rem; color: var(--text-muted);">Event discovery, ticketing, and convention information hub.</p>
+        <a href="#" class="team-link">Individual Portfolio &rarr;</a>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar">&#128100;</div>
+        <h4>Guo Yuhao</h4>
+        <div class="team-service">Workshop</div>
+        <p style="font-size: 0.875rem; color: var(--text-muted);">Community tutorials, skill guides, and cosplay learning resources.</p>
+        <a href="#" class="team-link">Individual Portfolio &rarr;</a>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar">&#128100;</div>
+        <h4>Jae (Kim Jaehyeok)</h4>
+        <div class="team-service">Creator Hub</div>
+        <p style="font-size: 0.875rem; color: var(--text-muted);">Friend-centered community sharing, event albums, and creator discovery.</p>
+        <a href="https://cs3240-portfolio-kjaehyeok21s-projects.vercel.app" class="team-link" target="_blank">Individual Portfolio &rarr;</a>
+      </div>
+    </div>
+
+    <div class="fade-in">
+      <h3>Shared Utilities</h3>
+    </div>
+
+    <div class="card-grid fade-in">
+      <div class="card">
+        <div class="card-label">Hongshan</div>
+        <h4>PropMes (Messaging) &amp; Friends</h4>
+        <p>In-app chat, friend list, and user profiles for transaction coordination.</p>
+      </div>
+      <div class="card">
+        <div class="card-label">Xiao Ao</div>
+        <h4>Login, Home Page &amp; Sidebar</h4>
+        <p>Authentication flow, landing page, and sidebar navigation.</p>
+      </div>
+      <div class="card">
+        <div class="card-label">Yuhao</div>
+        <h4>PropScan (AI Feature)</h4>
+        <p>Upload an image to identify props and find related guides, listings, and posts.</p>
+      </div>
+      <div class="card">
+        <div class="card-label">Jae</div>
+        <h4>Settings &amp; Profile</h4>
+        <p>Account settings, user profile, notification preferences, and reputation display.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 3: USER RESEARCH ===== -->
+<section class="section" id="research">
+  <div class="container">
+    <div class="section-two-col">
+    <div class="section-sidebar fade-in">
+      <div class="section-label">03 / User Research</div>
+      <h2 class="section-title">Research &amp; Synthesis</h2>
+      <p class="section-subtitle">Semi-structured interviews with 3 participants, synthesized through affinity diagramming, shaped our design direction.</p>
+    </div>
+
+    <div class="section-main">
+    <div class="fade-in">
+      <h3>Methodology</h3>
+      <p>We conducted <strong>semi-structured interviews</strong> with three participants who had recently engaged with cosplay or ACGN events. Participants were purposively selected based on inclusion criteria (recent cosplay or convention participation within the past year). The interviews probed for pain points without revealing our planned features.</p>
+    </div>
+
+    <div class="fade-in">
+      <h3>Key Findings</h3>
+    </div>
+
+    <div class="card-grid fade-in">
+      <div class="card">
+        <div class="card-label">Finding 1</div>
+        <h4>Event Discovery is Fragmented</h4>
+        <p>Users rely on Instagram, reposts, and friends. Missing events is a major pain point. This is one of the clearest validated needs.</p>
+      </div>
+      <div class="card">
+        <div class="card-label">Finding 2</div>
+        <h4>Trust &amp; Logistics Matter Most in Marketplace</h4>
+        <p>Users want reviews, seller credibility, sizing info, and location — not just listings. Cosplay sourcing is a coordination and trust problem.</p>
+      </div>
+      <div class="card">
+        <div class="card-label">Finding 3</div>
+        <h4>Guides Are On-Demand Utilities</h4>
+        <p>Users look for tutorials when they hit a specific need. They want searchable, structured content with upfront difficulty, time, and cost info.</p>
+      </div>
+      <div class="card">
+        <div class="card-label">Finding 4</div>
+        <h4>Community Should Be Friend-Centered</h4>
+        <p>Users want friend-first content, event-linked albums, and moderation — not another engagement-maximizing social feed.</p>
+      </div>
+      <div class="card">
+        <div class="card-label">Finding 5</div>
+        <h4>AI Should Be Task-Based, Not Pushy</h4>
+        <p>Users preferred AI for concrete tasks (prop identification, tag suggestions) over recommendation-heavy or passive content pushing.</p>
+      </div>
+    </div>
+
+    <div class="fade-in">
+      <h3>Affinity Diagram</h3>
+      <p>We organized all raw interview statements into five themes to identify cross-service patterns.</p>
+    </div>
+
+    <div class="figma-embed fade-in">
+      <iframe style="border: none;" width="100%" height="500" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fboard%2FXB1leBFxdkjW6jwS1LZMzj%2FAffinity-Diagrams%3Fnode-id%3D401-54" allowfullscreen loading="lazy"></iframe>
+    </div>
+
+    <div class="fade-in">
+      <h3>Group Persona</h3>
+    </div>
+
+    <div class="persona-card fade-in">
+      <div class="persona-avatar">&#128100;</div>
+      <div class="persona-info">
+        <h4>Shin Ip Seng</h4>
+        <div class="persona-meta">20 years old &middot; University Student &middot; Active ACGN Community Participant</div>
+        <div class="persona-section">
+          <h5>Background</h5>
+          <p>Shin is already familiar with ACGN culture and regularly engages with the community through conventions, cosplay-related content, and fandom discussions. His challenge is that the journey is inefficient and disconnected across too many platforms.</p>
+        </div>
+        <div class="persona-section">
+          <h5>Goals</h5>
+          <ul>
+            <li>Keep up with conventions and community events</li>
+            <li>Identify characters, props, and references efficiently</li>
+            <li>Source cosplay items without platform-hopping</li>
+            <li>Find relevant tutorials for current interests</li>
+            <li>Explore creator content for inspiration</li>
+            <li>Move smoothly between discovery, learning, sourcing, and sharing</li>
+          </ul>
+        </div>
+        <div class="persona-section">
+          <h5>How PropBank Supports Him</h5>
+          <ul>
+            <li><strong>CoNews</strong> for upcoming conventions and events</li>
+            <li><strong>PropScan</strong> to identify props and characters from images</li>
+            <li><strong>Marketplace</strong> for sourcing cosplay gear and materials</li>
+            <li><strong>Workshop</strong> for relevant tutorials and guides</li>
+            <li><strong>Creator Hub</strong> for inspiration and community content</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="fade-in">
+      <h3>Group User Journey Map</h3>
+    </div>
+
+    <div class="figma-embed fade-in">
+      <iframe style="border: none;" width="100%" height="500" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fboard%2FDJ6j2odtzl0O2O6jIWjYoe%2FCS3240-user-journey-map%3Fnode-id%3D2252-1237" allowfullscreen loading="lazy"></iframe>
+      <p style="font-size: 0.8125rem; color: var(--text-muted); text-align: center; padding: 0.75rem;">Group Persona Journey — "From Curious Outsider to First-Time Cosplayer"</p>
+    </div>
+    </div><!-- end section-main -->
+    </div><!-- end section-two-col -->
+  </div>
+</section>
+
+<!-- ===== SECTION 4: ECOSYSTEM ===== -->
+<section class="section" id="ecosystem">
+  <div class="container">
+    <div class="fade-in">
+      <div class="section-label">04 / Ecosystem</div>
+      <h2 class="section-title">Service Ecosystem</h2>
+      <p class="section-subtitle">Five services that work together to support the full cosplay and ACGN journey.</p>
+    </div>
+
+    <div class="service-grid fade-in">
+      <div class="service-card">
+        <div class="service-icon">&#128240;</div>
+        <h4>CoNews</h4>
+        <p>Event discovery, ticketing, reminders, and convention information.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">&#128722;</div>
+        <h4>Gear Library &amp; Marketplace</h4>
+        <p>Buy, sell, rent, borrow, and swap cosplay items with trust.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">&#128295;</div>
+        <h4>Workshop</h4>
+        <p>Searchable tutorials with difficulty, time, and cost previews.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">&#128247;</div>
+        <h4>Creator Hub</h4>
+        <p>Friend-centered sharing, event albums, and creator discovery.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">&#10024;</div>
+        <h4>PropScan</h4>
+        <p>AI-powered prop identification bridging all services.</p>
+      </div>
+    </div>
+
+    <div class="fade-in">
+      <h3>MVP Priority Order</h3>
+      <p>Based on user research, we prioritized the services by validated need:</p>
+      <ol style="padding-left: 1.5rem; color: var(--text-secondary); margin: 1rem 0;">
+        <li style="padding: 0.25rem 0;"><strong>CoNews</strong> — Clearest pain point across all interviews</li>
+        <li style="padding: 0.25rem 0;"><strong>Gear Marketplace</strong> — Core utility, refined around trust</li>
+        <li style="padding: 0.25rem 0;"><strong>Workshop</strong> — Structured knowledge utility</li>
+        <li style="padding: 0.25rem 0;"><strong>PropScan</strong> — Cross-service bridge via AI</li>
+        <li style="padding: 0.25rem 0;"><strong>Creator Hub</strong> — Lightweight community layer</li>
+      </ol>
+    </div>
+
+    <div class="fade-in">
+      <h3>Task Workflow Diagrams</h3>
+      <p>Each service defines its core user tasks with phased workflow diagrams.</p>
+    </div>
+
+    <div class="figma-embed fade-in">
+      <iframe style="border: none;" width="100%" height="500" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fboard%2FQFptdIlN7hds8GXeMgOJA3%2FCS3240-workflow-diragram%3Fnode-id%3D0-1" allowfullscreen loading="lazy"></iframe>
+      <p style="font-size: 0.8125rem; color: var(--text-muted); text-align: center; padding: 0.75rem;"><a href="https://www.figma.com/board/QFptdIlN7hds8GXeMgOJA3/CS3240-workflow-diragram" target="_blank">View full workflow diagrams in FigJam &rarr;</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 5: DESIGN SYSTEM ===== -->
+<section class="section" id="design-system">
+  <div class="container">
+    <div class="fade-in">
+      <div class="section-label">05 / Design System</div>
+      <h2 class="section-title">Shared Design System</h2>
+      <p class="section-subtitle">A utility-first, image-led, community-warm design language shared across all services.</p>
+    </div>
+
+    <div class="fade-in">
+      <h3>Design Direction</h3>
+      <p>The design system is utility-first with a fandom visual tone — clean base with energetic accent colors. It emphasizes image-first cards, consistent cross-service UI patterns, and reputation visibly embedded in UI.</p>
+    </div>
+
+    <div class="ds-grid fade-in">
+      <div class="ds-card">
+        <h4>Color Palette</h4>
+        <p style="font-size: 0.875rem;">PropBank's core colors drawn from the Beige Theme.</p>
+        <div class="color-swatches">
+          <div class="swatch" style="background: #072ac8;" title="#072ac8"></div>
+          <div class="swatch" style="background: #1e96fc;" title="#1e96fc"></div>
+          <div class="swatch" style="background: #a2d6f9;" title="#a2d6f9"></div>
+          <div class="swatch" style="background: #fcf300;" title="#fcf300"></div>
+          <div class="swatch" style="background: #ffc600;" title="#ffc600"></div>
+          <div class="swatch" style="background: #E5F4FE;" title="#E5F4FE"></div>
+        </div>
+      </div>
+      <div class="ds-card">
+        <h4>Typography</h4>
+        <p style="font-size: 0.875rem;">Hierarchical type scale from Display Large to Label Small, ensuring readability across all screens.</p>
+      </div>
+      <div class="ds-card">
+        <h4>Components</h4>
+        <p style="font-size: 0.875rem;">Reusable components: CTA buttons, search bars, filter chips, snackbars, popups, radio toggles, upload buttons, and bookmark icons.</p>
+      </div>
+      <div class="ds-card">
+        <h4>Navigation</h4>
+        <p style="font-size: 0.875rem;">Persistent bottom navbar (Trade, News, Home, Workshop, Social), sidebar for secondary features, and shared header with hamburger menu.</p>
+      </div>
+    </div>
+
+    <div class="figma-embed fade-in">
+      <iframe style="border: none;" width="100%" height="500" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FRb3NBiOCgCPaXdcylqQa3L%2FPropbank-playground%3Fnode-id%3D2-23" allowfullscreen loading="lazy"></iframe>
+      <p style="font-size: 0.8125rem; color: var(--text-muted); text-align: center; padding: 0.75rem;"><a href="https://www.figma.com/design/Rb3NBiOCgCPaXdcylqQa3L/Propbank-playground?node-id=2-23" target="_blank">View full design system in Figma &rarr;</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 6: NAVIGATION ===== -->
+<section class="section" id="navigation">
+  <div class="container">
+    <div class="fade-in">
+      <div class="section-label">06 / Navigation</div>
+      <h2 class="section-title">Navigation &amp; Information Architecture</h2>
+      <p class="section-subtitle">A hybrid navigation model: task-centered home hub with persistent bottom nav and contextual deep links.</p>
+    </div>
+
+    <div class="fade-in">
+      <h3>Overall Navigation Workflow</h3>
+      <p>The complete navigation map shows how users move between services, from login through all five core services and shared utilities.</p>
+    </div>
+
+    <div class="figma-embed fade-in">
+      <iframe style="border: none;" width="100%" height="500" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fboard%2FdlTpTF55FrQKmTATqDJw5O%2FCS3240-overall-navigation-workflow%3Fnode-id%3D0-1" allowfullscreen loading="lazy"></iframe>
+      <p style="font-size: 0.8125rem; color: var(--text-muted); text-align: center; padding: 0.75rem;"><a href="https://www.figma.com/board/dlTpTF55FrQKmTATqDJw5O/CS3240-overall-navigation-workflow" target="_blank">View full navigation workflow in FigJam &rarr;</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 7: INTEGRATION ===== -->
+<section class="section" id="integration">
+  <div class="container">
+    <div class="fade-in">
+      <div class="section-label">07 / Integration</div>
+      <h2 class="section-title">Cross-Service Relationships</h2>
+      <p class="section-subtitle">Services don't operate in silos — they are connected through deliberate integration points.</p>
+    </div>
+
+    <div class="card-grid fade-in">
+      <div class="card">
+        <div class="card-label">Workshop &harr; Marketplace</div>
+        <h4>"Buy Instead?" Bridge</h4>
+        <p>Workshop guides include marketplace listings for the same prop. Marketplace sellers can attach assembly/care guides. Users can compare DIY effort vs. purchase cost.</p>
+      </div>
+      <div class="card">
+        <div class="card-label">CreatorHub &harr; CoNews</div>
+        <h4>Event-Linked Content</h4>
+        <p>Posts tag CoNews events, creating browsable event albums. CoNews event pages show community posts. Friends' content is surfaced first.</p>
+      </div>
+      <div class="card">
+        <div class="card-label">CreatorHub &harr; Workshop</div>
+        <h4>Guide Tagging</h4>
+        <p>Users tag which Workshop guide they followed. Viewers tap to jump to the tutorial. High-quality community content can inspire new guides.</p>
+      </div>
+      <div class="card">
+        <div class="card-label">PropScan &rarr; Everything</div>
+        <h4>Universal Bridge</h4>
+        <p>Scanning returns results across all services: buyable items, tutorials, and related community posts — in one unified view.</p>
+      </div>
+      <div class="card">
+        <div class="card-label">Cross-Service</div>
+        <h4>Unified Reputation</h4>
+        <p>A single profile carries trust across services with multiple visible dimensions: marketplace trust, maker contribution, guide contribution, and community engagement.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 8: INDIVIDUAL PORTFOLIOS ===== -->
+<section class="section" id="portfolios">
+  <div class="container">
+    <div class="fade-in">
+      <div class="section-label">08 / Individual Work</div>
+      <h2 class="section-title">Individual Portfolios</h2>
+      <p class="section-subtitle">Each team member's service is documented in depth in their individual portfolio.</p>
+    </div>
+
+    <div class="team-grid fade-in">
+      <div class="team-card">
+        <h4>Hongshan</h4>
+        <div class="team-service">Gear Library &amp; Marketplace</div>
+        <a href="#" class="team-link">View Portfolio &rarr;</a>
+      </div>
+      <div class="team-card">
+        <h4>Xiao Ao</h4>
+        <div class="team-service">CoNews</div>
+        <a href="#" class="team-link">View Portfolio &rarr;</a>
+      </div>
+      <div class="team-card">
+        <h4>Yuhao</h4>
+        <div class="team-service">Workshop</div>
+        <a href="#" class="team-link">View Portfolio &rarr;</a>
+      </div>
+      <div class="team-card">
+        <h4>Jae</h4>
+        <div class="team-service">Creator Hub</div>
+        <a href="https://cs3240-portfolio-kjaehyeok21s-projects.vercel.app" class="team-link" target="_blank">View Portfolio &rarr;</a>
+      </div>
+    </div>
+
+    <div class="fade-in" style="margin-top: 2rem;">
+      <h3>Figma Prototype Links</h3>
+      <table class="flow-table">
+        <thead>
+          <tr>
+            <th>Service</th>
+            <th>Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Shared App (Full Prototype)</td>
+            <td><a href="https://www.figma.com/design/Rb3NBiOCgCPaXdcylqQa3L/Propbank-playground" target="_blank">Figma Design &rarr;</a></td>
+          </tr>
+          <tr>
+            <td>Workflow Diagrams</td>
+            <td><a href="https://www.figma.com/board/QFptdIlN7hds8GXeMgOJA3/CS3240-workflow-diragram" target="_blank">FigJam Board &rarr;</a></td>
+          </tr>
+          <tr>
+            <td>User Journey Maps</td>
+            <td><a href="https://www.figma.com/board/DJ6j2odtzl0O2O6jIWjYoe/CS3240-user-journey-map" target="_blank">FigJam Board &rarr;</a></td>
+          </tr>
+          <tr>
+            <td>Navigation Workflow</td>
+            <td><a href="https://www.figma.com/board/dlTpTF55FrQKmTATqDJw5O/CS3240-overall-navigation-workflow" target="_blank">FigJam Board &rarr;</a></td>
+          </tr>
+          <tr>
+            <td>Affinity Diagrams</td>
+            <td><a href="https://www.figma.com/board/XB1leBFxdkjW6jwS1LZMzj/Affinity-Diagrams" target="_blank">FigJam Board &rarr;</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <p>PropBank — Group Portfolio &middot; CS3240 AY2025/26 S2 &middot; T6 Group 5</p>
+  <p style="margin-top: 0.5rem;">Guo Yuhao &middot; Chen Hongshan &middot; Xiao Ao &middot; Jae (Kim Jaehyeok)</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
